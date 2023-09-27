@@ -12,20 +12,20 @@ Ya con la prueba adjunta, procedemos con el desarrollo de los siguientes puntos 
 # Punto #2
 Aquí creamos el programa capaz de determinar que de 3 números reales, se sepa que numero es mayor de los 3 mismos, el funcionamientO es relativamente sencillo, ya que por medio del programa detecta automaticamente que numero es mayor a cual, sol hace falta condicionar bien el progama, en palabras mas programadoras:
 
-El programa recopila tres números (x, y, z) que el usuario ingresa.
+I) El programa recopila tres números (x, y, z) que el usuario ingresa.
 
-Luego, compara estos números en una serie de declaraciones condicionales if para determinar cuál de ellos es el mayor.
+II) Luego, compara estos números en una serie de declaraciones condicionales if para determinar cuál de ellos es el mayor.
 
-Cada declaración condicional if verifica si un número es mayor que los otros dos utilizando operadores de comparación (por ejemplo, x > y). Si la condición es verdadera, significa que ese número es el mayor y se muestra un mensaje que indica que ese número es el mayor.
+III) Cada declaración condicional if verifica si un número es mayor que los otros dos utilizando operadores de comparación (por ejemplo, x > y). Si la condición es verdadera, significa que ese número es el mayor y se muestra un mensaje que indica que ese número es el mayor.
 
-Si ninguno de los números es mayor que los otros dos, no se mostrará ningún mensaje.
+IV) Si ninguno de los números es mayor que los otros dos, no se mostrará ningún mensaje.
 
 ![Punto_2](https://github.com/irjimenezv/Taller_1/assets/141859143/22a0f70a-ffd5-4053-b4d2-8b6a7ab23fca)
 
 # Punto #3
 Para determinar si un número es impar o no, podemos usar la funcion de residuo, es decir, que se divide entre dos y si el residuo es igual a 0, significa que el número ingresado es par, el caso contrario es cuando el número que ingresamos tiene un residuo diferente a 0, en esta situación el numero ya no sería par, por ende, el programa nos escribe que nuestro numero es impar:
 
-El programa comienza solicitando al usuario que ingrese un número entero (x) utilizando la función input().
+I) El programa comienza solicitando al usuario que ingrese un número entero (x) utilizando la función input().
 
 Luego, evalúa si el número ingresado (x) es par o impar utilizando una declaración condicional if.
 
@@ -104,5 +104,12 @@ Si la frecuencia no coincide con ninguno de los rangos especificados en las decl
 
 
 # Punto #9
+El programa solicita al usuario que ingrese el nombre de un país de Sudamérica utilizando la función input(). El nombre del país se almacena como una cadena (string) en la variable x.
+
+Luego, el código utiliza múltiples declaraciones condicionales if y elif  para comparar la cadena ingresada (x) con los nombres de varios países de Sudamérica.
+
+Cada declaración condicional compara la cadena ingresada (x) con el nombre de un país específico. Si la cadena coincide con el nombre de un país en la lista, se ejecuta el bloque de código correspondiente y se imprime la capital de ese país.
+
+Si la cadena ingresada no coincide con ningún país en la lista especificada en las declaraciones condicionales, se ejecuta la parte else del código y se imprime "pais no identificado" para indicar que el país ingresado no se encontró en la lista.
 
 ![Punto_9](https://github.com/irjimenezv/Taller_1/assets/141859143/72654de3-bbd0-4b69-8097-4f154e96fc6c)
