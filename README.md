@@ -33,7 +33,7 @@ En la línea if x % 2 == 0:, se calcula el residuo de la división de x entre 2 
 
 Si el residuo de la división de x entre 2 no es igual a 0, la declaración else se ejecuta, lo que significa que x es un número impar. En este caso, se imprime un mensaje que indica que el número (x) es impar.
 
-![Punto_3](https://github.com/irjimenezv/Taller_1/assets/141859143/41c9bf2d-bd13-4e4d-98d6-17420fef667b)
+https://colab.research.google.com/github/irjimenezv/Taller_1/blob/main/Punto3.ipynb#scrollTo=fw1MBlnSw7nr&line=1&uniqifier=1
 
 # Punto #4
 Si queremos saber si un número es multiplo de otro basta con realizar un proceso bastante similar al anterior, aquí tenemos que definir un primer numero para que posteriormente sea divido por el segundo número, para determinar si es multiplo el residuo debe ser igual a 0, si no es así, se escribira que no es multiplo del primer numero:
@@ -112,4 +112,5 @@ Cada declaración condicional compara la cadena ingresada (x) con el nombre de u
 
 Si la cadena ingresada no coincide con ningún país en la lista especificada en las declaraciones condicionales, se ejecuta la parte else del código y se imprime "pais no identificado" para indicar que el país ingresado no se encontró en la lista.
 
-![Punto_9](https://github.com/irjimenezv/Taller_1/assets/141859143/72654de3-bbd0-4b69-8097-4f154e96fc6c)
+https://colab.research.google.com/github/irjimenezv/Taller_1/blob/main/Punto9.ipynb#scrollTo=1qPxKv52uLRM&line=1&uniqifier=1
+
