@@ -31,13 +31,20 @@ En este punto tenemos que crear un programa en el cual se tendrá que introducir
 
 
 # Punto #6
-
+Ahora cambiando un poco del tema de números, nos vamos por el lado de las vocales y consonantes, en esta ocasión crearemos un programa que sea capaz de identidficar si la letra que nosotros introducimos es una vocal o consonante, para determinar esto basta con determinar cuales son las vocales (a, e, i, o y u) el resto de letras serán consideradas automaticamente como consonantes tal que:
 
 ![Punto_6](https://github.com/irjimenezv/Taller_1/assets/141859143/2f8e4b00-bcd2-4ef5-b3b9-3d6d29359d91)
 
 
 # Punto #7
-
+Con el código que tenemos a conitnuación; haremos unos cálculos ya un poco mas avanzados, primero que todo pediremos al usuario que ingrese 5 números reales y en base a esos datos registrados se realizara en cáclulo de:
+* La mediana
+* El promedio
+* Promedio multiplicativo
+* Se ordenarán de mayor a menor
+* Se ordenarán de menor a mayor
+* La potencia del número elevado al número menor
+* La raiz cubica del número menor
 
 
 # Punto #8
