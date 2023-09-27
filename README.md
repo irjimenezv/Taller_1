@@ -61,11 +61,13 @@ Si la condición en el primer if no es verdadera, el programa pasa a la siguient
 
 Si ninguna de las condiciones anteriores es verdadera, es decir, si la suma de x y y no es igual a z y tampoco es mayor que z, entonces se ejecuta la parte else, y se imprime el mensaje "la suma x+y es menor a z".
 
+[![](https://mermaid.ink/img/pako:eNplkb9OwzAQh1_ldFMr0oktEkW0SdpKwFK2muEUu61FbCPHFuTfi7HyYri1AgU8_eT7_J3O12FpuMAU95V5K49kHTxlTN9NNlqW0kxns_lit9HOGu5LaeEa9OeHEtbUYAVVoob3BJoE2memIZwFhBew7PJQuGpgDi3cDrG0PJX6rewh290T1F7RmQkORY2xQN-WiD6aHvLuEr2BdrTlo6z4K5MHT9WFLB9dq39thf7VNgvkOsbiJ65iXE8KqadMY4JhfkWSh1_rTghDdxRKMExD5GRfGDI9BI68M9tGl5g660WC_pWTE5mkgyWF6Z6qOtwKLp2xD3EN520MX3NEfnI?type=png)](https://mermaid.live/edit#pako:eNplkb9OwzAQh1_ldFMr0oktEkW0SdpKwFK2muEUu61FbCPHFuTfi7HyYri1AgU8_eT7_J3O12FpuMAU95V5K49kHTxlTN9NNlqW0kxns_lit9HOGu5LaeEa9OeHEtbUYAVVoob3BJoE2memIZwFhBew7PJQuGpgDi3cDrG0PJX6rewh290T1F7RmQkORY2xQN-WiD6aHvLuEr2BdrTlo6z4K5MHT9WFLB9dq39thf7VNgvkOsbiJ65iXE8KqadMY4JhfkWSh1_rTghDdxRKMExD5GRfGDI9BI68M9tGl5g660WC_pWTE5mkgyWF6Z6qOtwKLp2xD3EN520MX3NEfnI)
+
 ![Punto_5](https://github.com/irjimenezv/Taller_1/assets/141859143/23371381-ca48-442f-92a2-a9eb40e38c5f)
 
 
 # Punto #6
-Ahora cambiando un poco del tema de números, nos vamos por el lado de las vocales y consonantes, en esta ocasión crearemos un programa que sea capaz de identidficar si la letra que nosotros introducimos es una vocal o consonante, para determinar esto basta con determinar cuales son las vocales (a, e, i, o y u) el resto de letras serán consideradas automaticamente como consonantes tal que:
+Ahora cambiando un poco del tema de números, nos vamos por el lado de las vocales y consonantes, en esta ocasión crearemos un programa que sea capaz de identidficar si la letra que nosotros introducimos es una vocal o consonante, para determinar esto basta con determinar cuales son las vocales (a, e, i, o y u), aunque tambien se podía dar solución por el modelos ASCI, nosotros elegimos esta manera. El resto de letras serán consideradas automaticamente como consonantes tal que:
 
 El programa comienza solicitando al usuario que ingrese un carácter (string) utilizando la función input(). El carácter se almacena como una cadena (string) en la variable x.
 
@@ -74,6 +76,8 @@ Luego, el código evalúa si el carácter ingresado (x) es una vocal o una conso
 En la línea if x == "a" or x == "e" or x == "i" or x == "o" or x == "u":, se compara el carácter x con las letras "a", "e", "i", "o" y "u". Si x es igual a cualquiera de estas letras, la condición es verdadera y se ejecuta el bloque de código dentro del if. En este caso, se imprime el carácter x seguido del mensaje "es una vocal".
 
 Si la condición en el if no es verdadera, se ejecuta la parte else del código, lo que significa que el carácter x no es igual a ninguna de las vocales mencionadas ("a", "e", "i", "o", "u"). En este caso, se imprime el carácter x seguido del mensaje "es una consonante".
+
+[![](https://mermaid.ink/img/pako:eNpl0LFOw0AMBuBXsTwVKX2BDFS0aaQOsISt18HcufREYleXOxBK8u5YtAMSk3_Z32B7Qq-BscZzr1_-QinDa-PkaXWQ6KM-WFyvH7dOtseD5KSh-Jig55wIAvdAb-w5UIp6MmN052Q3deVOeASqgCFWoBWUzWJTQ_OLzs3xrypC4FVGFZLMpzvr4rz_xz7VU2-iMdE62d9Ku2qj2LpY4cBpoBjsqMkJgMN84YEd1hZt1Q-HThZzVLJ23-KxzqlwheUaKHMT6T3RgPWZ-tG6HGLW9Hz70u-zlh9ehmhV?type=png)](https://mermaid.live/edit#pako:eNpl0LFOw0AMBuBXsTwVKX2BDFS0aaQOsISt18HcufREYleXOxBK8u5YtAMSk3_Z32B7Qq-BscZzr1_-QinDa-PkaXWQ6KM-WFyvH7dOtseD5KSh-Jig55wIAvdAb-w5UIp6MmN052Q3deVOeASqgCFWoBWUzWJTQ_OLzs3xrypC4FVGFZLMpzvr4rz_xz7VU2-iMdE62d9Ku2qj2LpY4cBpoBjsqMkJgMN84YEd1hZt1Q-HThZzVLJ23-KxzqlwheUaKHMT6T3RgPWZ-tG6HGLW9Hz70u-zlh9ehmhV)
 
 ![Punto_6](https://github.com/irjimenezv/Taller_1/assets/141859143/2f8e4b00-bcd2-4ef5-b3b9-3d6d29359d91)
 
@@ -113,4 +117,25 @@ Cada declaración condicional compara la cadena ingresada (x) con el nombre de u
 Si la cadena ingresada no coincide con ningún país en la lista especificada en las declaraciones condicionales, se ejecuta la parte else del código y se imprime "pais no identificado" para indicar que el país ingresado no se encontró en la lista.
 
 https://colab.research.google.com/github/irjimenezv/Taller_1/blob/main/Punto9.ipynb#scrollTo=1qPxKv52uLRM&line=1&uniqifier=1
+
+# Punto #10
+El programa comienza solicitando al usuario que ingrese una distancia en metros utilizando la función input(). La distancia ingresada se almacena como un valor de punto flotante (float) en la variable distancia.
+
+Luego, el código calcula el tiempo que le tomaría a la luz recorrer la distancia ingresada. Para esto, divide la distancia por la velocidad de la luz, que es de aproximadamente 299,792,458 metros por segundo. El resultado se almacena en la variable t_vLuz.
+
+Se imprime el tiempo calculado en la primera parte del código, indicando que es el tiempo que le tomaría a la luz recorrer la distancia ingresada.
+
+A continuación, se calcula el tiempo que le tomaría al sonido recorrer la misma distancia. Se divide la distancia por la velocidad del sonido en el aire, que es de aproximadamente 343.2 metros por segundo. El resultado se almacena en la variable t_vSonido.
+
+Se imprime el tiempo calculado en la segunda parte del código, indicando que es el tiempo que le tomaría al sonido recorrer la distancia ingresada.
+
+Luego, se calcula el tiempo que le tomaría al vehículo comercial más rápido (SSC Tuatara) recorrer la distancia. Se divide la distancia por la velocidad de este vehículo, que es de aproximadamente 141.111 metros por segundo. El resultado se almacena en la variable t_vAuto.
+
+Se imprime el tiempo calculado en la tercera parte del código, indicando que es el tiempo que le tomaría al vehículo comercial más rápido recorrer la distancia ingresada.
+
+Finalmente, se calcula el tiempo que le tomaría al corredor Usain Bolt recorrer la distancia. Se divide la distancia por la velocidad de Usain Bolt, que es de aproximadamente 11.6667 metros por segundo. El resultado se almacena en la variable t_vBolt.
+
+Se imprime el tiempo calculado en la última parte del código, indicando que es el tiempo que le tomaría a Usain Bolt recorrer la distancia ingresada.
+
+![Punto_10](https://github.com/irjimenezv/Taller_1/assets/141859143/d537e97c-48fb-471a-96be-5cb368a7d43f)
 
